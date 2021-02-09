@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PriceStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/turquoise_blue</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.016729166833958403</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:fontFamily">@font/sfprotext_bold</item>
+    </style>
+    <style name="NameStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/dark_blue_grey</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.016729166833958403</item>
+        <item name="android:lineHeight">15sp</item>
+        <item name="android:fontFamily">@font/sfprotext_semibold</item>
+    </style>
+    <style name="StyleStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/steel</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.0250937502509376</item>
+        <item name="android:lineHeight">12sp</item>
+        <item name="android:fontFamily">@font/sfprotext_medium</item>
+    </style>
+    <style name="QtyStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/steel</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.0250937502509376</item>
+        <item name="android:lineHeight">12sp</item>
+        <item name="android:fontFamily">@font/sfprotext_medium</item>
+    </style>
+    <style name="CheckoutLabelStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/steel</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.0250937502509376</item>
+        <item name="android:lineHeight">12sp</item>
+        <item name="android:fontFamily">@font/sfprotext_medium</item>
+    </style>
+    <style name="CheckoutValueStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/dark_blue_grey</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.0250937502509376</item>
+        <item name="android:lineHeight">12sp</item>
+        <item name="android:fontFamily">@font/sfprotext_medium</item>
+    </style>
+    <style name="CheckoutTotalStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/salmon</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.0250937502509376</item>
+        <item name="android:lineHeight">12sp</item>
+        <item name="android:fontFamily">@font/sfprotext_medium</item>
+    </style>
+    <style name="HeaderStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/dark_blue_grey</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.033458333667916805</item>
+        <item name="android:lineHeight">22sp</item>
+        <item name="android:fontFamily">@font/sfprotext_bold</item>
+    </style>
+    <style name="ColorBulletStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/dark_blue_grey</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.033458333667916805</item>
+        <item name="android:lineHeight">22sp</item>
+        <item name="android:fontFamily">@font/sfprotext_bold</item>
+    </style>
+
+</resources>

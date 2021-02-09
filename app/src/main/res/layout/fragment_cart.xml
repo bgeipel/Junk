@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="@dimen/text_margin" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="@style/NameStyle"
+                />
+
+            <TextView
+                android:id="@+id/product_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+
+                android:textAppearance="@style/StyleStyle" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/product_unitprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/PriceStyle"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/product_swatch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/filled_bullet"
+                android:textAppearance="@style/ColorBulletStyle"
+                 />
+
+            <TextView
+                android:id="@+id/product_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:text="QTY: 0"
+                android:textAppearance="@style/QtyStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
